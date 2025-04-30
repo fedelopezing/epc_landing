@@ -1,0 +1,8 @@
+import LandingWrapper from "@/components/LandingWrapper.tsx";
+
+export default function Home() {
+
+  return (
+      <LandingWrapper />
+  );
+}
