@@ -4,7 +4,7 @@ import {Separator} from '@/components/ui/separator';
 const ContactComponent = () => {
   return (
       <section id="contact" className="services py-12 lg:py-20">
-        <div className="container px-10 mx-auto">
+        <div className="container px-10 lg:px-20 mx-auto">
           <div className="grid md:grid-cols-2 gap-4">
 
             <div className="flex flex-col items-start">
@@ -34,7 +34,9 @@ const ContactComponent = () => {
               <h3 className="text-lg font-bold mb-4">Contáctanos</h3>
               <a className="text-xs mb-1" href="tel:+595976549903">+595 976 549 903</a>
               <a className="text-xs mb-1" href="mailto:presupuestos@epc.com.py">presupuestos@epc.com.py</a>
-              <p className="text-xs mb-1">Direccion particular con enlace al mapa</p>
+              <a className="text-xs mb-1 font-bold" href="https://maps.app.goo.gl/ug5TgwHTJ7goAA5p6?g_st=iw" target="_blank">
+                Francisco Bogarín 1448 c/ Convencion
+              </a>
             </div>
           </div>
 

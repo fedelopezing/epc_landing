@@ -6,7 +6,7 @@ const TeamComponent = () => {
 
   return (
       <section id="teams" className="bg-secondary py-12 lg:py-20">
-        <div className="container text-center px-10 mx-auto">
+        <div className="container text-center px-10 lg:px-20 mx-auto">
           <h2 className="sub-title">Nuestros Equipo</h2>
           <p className="lg:px-40 mb-8">
             EPC EAS está liderada por expertos con años de experiencia en los proyectos más desafiantes del país.

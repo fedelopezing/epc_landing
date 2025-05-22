@@ -6,7 +6,7 @@ const HeroComponent = () => {
   return (
       <section id="home" className="hero">
         <NavbarComponent />
-        <div className="container grid lg:grid-cols-2 gap-4 mx-auto">
+        <div className="container grid lg:grid-cols-2 gap-4 mx-auto lg:px-12">
           <div className="flex flex-col justify-center px-6 md:px-0">
             <h5 className="mb-3 text-md md:text-2xl">
               Especialistas en construcciones

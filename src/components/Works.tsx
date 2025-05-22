@@ -13,7 +13,7 @@ const WorksComponent = () => {
   const works = getWorks();
 
   return (
-      <section id="works" className="works py-12 px-8 lg:py-20">
+      <section id="works" className="works py-12 px-8 lg:p-20">
         <div className="container text-center px-8 mx-auto">
           <h2 className="sub-title">Obras</h2>
           <p className="lg:px-40 mb-8">
@@ -26,7 +26,7 @@ const WorksComponent = () => {
             <Carousel className="w-full">
               <CarouselContent>
                 {works.map((work) => (
-                    <CarouselItem key={work.id} className="md:basis-1/2 lg:basis-1/4">
+                    <CarouselItem key={work.id} className="md:basis-1/2 xl:basis-1/4">
                       <Card className="relative rounded-lg overflow-hidden border border-black">
                         {/* Imagen de fondo */}
                         <div

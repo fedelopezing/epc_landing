@@ -4,7 +4,7 @@ import ButtonBudget from '@/components/shared/button-budget';
 const CtaComponent = () => {
   return (
       <section className="cta bg-gray-50 py-12">
-        <div className="container px-10 mx-auto">
+        <div className="container px-6 md:px-12 lg:px-20 mx-auto">
           <div className="grid lg:grid-cols-2 gap-4">
             <div>
               <h2 className="text-gray-950 font-bold text-2xl mb-4">
