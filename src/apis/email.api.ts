@@ -6,11 +6,8 @@ type Email = {
   project: string;
 }
 
-export const budgetMail = async ({ name, email, project}: Email ) => {
-  const response = await axios.post(import.meta.env.PUBLIC_EMAIL_API, {
-    name,
-    email,
-    project
-  });
+export const budgetMail = async ({ name, email, project }: Email) => {
+  const apiUrl = `${import.meta.env.PUBLIC_EMAIL_API}/send-email`;
+  const response = await axios.post(apiUrl, { name, email, project });
   return response.data;
 };
