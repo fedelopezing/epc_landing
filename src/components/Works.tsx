@@ -35,7 +35,7 @@ const WorksComponent = () => {
                         />
 
                         {/* Capa de degradado */}
-                        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent" />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent" />
 
                         {/* Contenido del card */}
                         <CardContent className="relative h-96 p-6 flex flex-col justify-end z-10">
