@@ -23,7 +23,7 @@ const ContactComponent = () => {
                 <a href="https://www.instagram.com/epceas/" target="_blank">
                   <Icon name="bxl-instagram" size="1.2rem"/>
                 </a>
-                <a href="https://puntocode.com.py" target="_blank">
+                <a href="https://www.linkedin.com/company/epceaspy/" target="_blank">
                   <Icon name="bxl-linkedin" size="1.2rem"/>
                 </a>
               </div>

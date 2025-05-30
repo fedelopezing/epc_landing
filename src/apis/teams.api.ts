@@ -14,8 +14,8 @@ const getTeams = () => {
     },
     {
       id: 3,
-      name: 'PABLO MARTÍNEZ',
-      description: ['Depto. Técnico', 'Obras'],
+      name: 'PABLO ESPINOZA',
+      description: ['Depto. Comercial', 'Técnico'],
       image: '/images/teams/obra.svg'
     },
     {
